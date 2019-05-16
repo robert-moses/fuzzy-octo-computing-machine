@@ -1,4 +1,4 @@
-Support of cipher suite vulnerabilities as these cipher suites will need to be disabled on the systems directly.
+Current crypto and cipher suites settings have vulnerabilities. These settings will need to be disabled on the systems directly.
 1) need to disable SSLv2, SSLv3, and other protocols
 2) need to disable RC4 ciphers, and other weak ciphers
 
