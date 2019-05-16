@@ -1,0 +1,9 @@
+create GPO to increase security of RDP connections.
+
+1) Create new GPO "Sec-SecureRDP"
+2) Settings:
+Computer\Policies\Windows Components\Remote Desktop Services\Remote Desktop Session Host\Security
+    Require user authentication for remote connections by using Network Level Authentication - ENABLED
+    Require use of specific layer for remote (RDP) connection - ENABLED, settings for SSL
+    Set Client Encyrption Level - ENABLED, setting for High Level
+3) Apply all computers/clients.
