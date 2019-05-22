@@ -11,5 +11,3 @@ Only the weak ciphers (RC2/RC4) here are disabled.
 ONE of these files shold be imported/merged, usually via GPP.
 Choose based on the minimum TLS version to support.
 All settings configure SSL2/3 to disabled.
-
-end
