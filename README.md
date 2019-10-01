@@ -6,4 +6,8 @@ and more
 Descriptive snippets
 (for techs, tickets/request)
 
-To-Do: GPO backup exports.
+To-Do: 
+- GPO backup exports.
+- DSC examples
+- plain PoSH examples
+- chef/inspec recipes?
