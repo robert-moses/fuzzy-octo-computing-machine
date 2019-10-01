@@ -4,12 +4,12 @@ Default crypto and cipher suites settings have vulnerabilities. These settings w
 2) need to disable RC4 ciphers, and other weak ciphers
 3) need to reorder ciphers, disabling weak/broken groups.
 
-# See the reg files that can be added to a GPO (copied to SYSVOL)
+## See the reg files that can be added to a GPO (copied to SYSVOL)
 1) GPO: Name GPO "Sec-SSL-TLS-Hardening"
 2) Add GPP for registry (point to .reg files) (Registry for crypto/cipher settings)
 3) Link to OU to apply GPO to all server/PCs
 
-# Registry files:
+## Registry files:
 [HKLM-Policies-Crypto-CipherOrder.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Policies-Crypto-CipherOrder.reg) - Cipher order (with only enabled best practices ciphers)
 
 [HKLM-Schannel-Ciphers.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Schannel-Ciphers.reg) - best practice ciphers only
