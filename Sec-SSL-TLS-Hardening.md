@@ -12,9 +12,15 @@ Default crypto and cipher suites settings have vulnerabilities. These settings w
 
 # Registry files:
 HKLM-Policies-Crypto-CipherOrder.reg - Cipher order (with only enabled best practices ciphers)
+
 HKLM-Schannel-Ciphers.reg - best practice ciphers only
+
 HKLM-Schannel-Hashes.reg - best practice hashes only
+
 HKLM-Schannel-KeyExchangeAlgorithms.reg - best practice key exchange configuration
+
 HKLM-Schannel-Protocols.reg - Best practice protoclas, disables SSL2/3. enables TLS1.0+
+
 [optional] HKLM-Schannel-Protocols-Disable-TLS1.0.reg - disables TLS 1.0 client and server
+
 [optional] HKLM-Schannel-Protocols-Disable-TLS1.1.reg - disables TLS 1.1 client and server
