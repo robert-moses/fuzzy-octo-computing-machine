@@ -1,5 +1,5 @@
 # Configure SSL/TLS and Crypto Registry Settings
-Detfault crypto and cipher suites settings have vulnerabilities. These settings will need to be disabled on the systems directly.
+Default crypto and cipher suites settings have vulnerabilities. These settings will need to be disabled on the systems directly.
 1) need to disable SSLv2, SSLv3, and other protocols
 2) need to disable RC4 ciphers, and other weak ciphers
 3) need to reorder ciphers, disabling weak/broken groups.
