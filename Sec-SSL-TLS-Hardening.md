@@ -4,10 +4,9 @@ Default crypto and cipher suites settings have vulnerabilities. These settings w
 2) need to disable RC4 ciphers, and other weak ciphers
 3) need to reorder ciphers, disabling weak/broken groups.
 
-# See the reg files that can be imported into a GPO (copied to SYSVOL)
-
+# See the reg files that can be added to a GPO (copied to SYSVOL)
 1) GPO: Name GPO "Sec-SSL-TLS-Hardening"
-2) Import setting to GPO (Registry for crypto/cipher settings)
+2) Add GPP for registry (point to .reg files) (Registry for crypto/cipher settings)
 3) Link to OU to apply GPO to all server/PCs
 
 # Registry files:
