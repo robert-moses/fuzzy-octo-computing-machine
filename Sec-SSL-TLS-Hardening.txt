@@ -1,9 +1,0 @@
-Current crypto and cipher suites settings have vulnerabilities. These settings will need to be disabled on the systems directly.
-1) need to disable SSLv2, SSLv3, and other protocols
-2) need to disable RC4 ciphers, and other weak ciphers
-
-See attached Reg files that can be imported into a GPO (copied to SYSVOL)
-
-1) GPO: Name GPO "Sec-SSL-TLS-Hardening"
-2) Import setting to GPO (Registry for crypto/cipher settings)
-3) Link to OU to apply GPO to all server/PCs
