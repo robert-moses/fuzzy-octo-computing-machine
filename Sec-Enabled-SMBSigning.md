@@ -1,4 +1,4 @@
-Enable SMB signing via GPO
+# Enable SMB signing via GPO
 
 1) create new GPO "Sec-Enable-SMBSigning"
 2) Configure:
