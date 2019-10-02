@@ -18,7 +18,7 @@ Default crypto and cipher suites settings have vulnerabilities. These settings w
 
 [HKLM-Schannel-KeyExchangeAlgorithms.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Schannel-KeyExchangeAlgorithms.reg) - best practice key exchange configuration
 
-[HKLM-Schannel-Protocols.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Schannel-Protocols.reg) - Best practice protoclas, disables SSL2/3. enables TLS1.0+
+[HKLM-Schannel-Protocols.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Schannel-Protocols.reg) - Best practice protocols, disables SSL2/3. enables TLS1.0+
 
 {optional} [HKLM-Schannel-Protocols-Disable-TLS1.0.reg](https://raw.githubusercontent.com/robert-moses/fuzzy-octo-computing-machine/master/Sec-SSL-TLS-Hardening/HKLM-Schannel-Protocols-Disable-TLS1.0.reg) - disables TLS 1.0 client and server
 
