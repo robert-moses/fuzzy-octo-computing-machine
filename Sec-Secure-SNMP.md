@@ -19,7 +19,7 @@ Computer Configuration\Policies\Windows Settings\Security Settings\System Servic
 1) Configure:
 Computer Configuration\Policies\Administrative Template\Network\SNMP\Communities
   Enabled: "E32aYtgKavdH9TEkpqX6JU5" --- RANDOM EXAMPLE DO NOT USE
-Computer Configuration\Policies\Administrative Template\Network\SNMP\Permitted Managers
-  Enabled: permitted managers - "localhost" -- RESTRICT TO LOCAL HOST listener
-Computer Configuration\Policies\Administrative Template\Network\SNMP\Trap for public community
+ Computer Configuration\Policies\Administrative Template\Network\SNMP\Permitted Managers
+   Enabled: permitted managers - "localhost" -- RESTRICT TO LOCAL HOST listener
+ Computer Configuration\Policies\Administrative Template\Network\SNMP\Trap for public community
   Disabled
